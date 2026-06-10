@@ -136,7 +136,7 @@
   .credit{position:absolute;right:14px;bottom:6px;font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:rgba(255,255,255,.18);font-family:'Instrument Serif',serif;font-style:italic}
 
   /* CARD ANIMATIONS */
-  @keyframes drive-rl{0%{right:-15%;transform:translateY(0) scaleX(-1)}25%{transform:translateY(-3px) scaleX(-1)}40%{transform:translateY(0) scaleX(-1)}55%{transform:translateY(-4px) scaleX(-1)}70%{transform:translateY(0) scaleX(-1)}100%{right:115%;transform:translateY(0) scaleX(-1)}}
+  @keyframes drive-rl{0%{right:15%;transform:translateY(0) scaleX(1)}25%{transform:translateY(-3px) scaleX(1)}40%{transform:translateY(0) scaleX(1)}55%{transform:translateY(4px) scaleX(1)}70%{transform:translateY(0) scaleX(1)}100%{right:115%;transform:translateY(0) scaleX(1)}}
   @keyframes steam{0%{transform:translateY(0) scaleX(1);opacity:.8}50%{transform:translateY(-10px) scaleX(1.2);opacity:.4}100%{transform:translateY(-22px) scaleX(.8);opacity:0}}
   @keyframes flash{0%,92%,100%{opacity:0}95%{opacity:1}}
   @keyframes pulseRing{0%{transform:scale(.5);opacity:.85}100%{transform:scale(2.4);opacity:0}}
@@ -254,12 +254,12 @@
   <h2 data-i18n="vibes_h">A bit of everything good.</h2>
   <div class="vibes">
     <div class="card"><div class="num">01</div>
-      <div class="anim"><div class="anim-road"></div><div class="anim-car">🚗</div></div>
+      <div class="anim"><div class="anim-road"></div><div class="anim-car">🏍️</div></div>
       <h3 data-i18n="v1_t">Exploring places through travelling</h3>
       <p data-i18n="v1_d">City walkthroughs, hidden corners, road trips and travel stories — the kind of places worth packing a bag for.</p>
     </div>
     <div class="card"><div class="num">02</div>
-      <div class="anim"><span class="anim-steam" style="left:18px"></span><span class="anim-steam" style="left:32px;animation-delay:.4s"></span><span class="anim-steam" style="left:46px;animation-delay:.8s"></span><div class="anim-bowl">🍜</div></div>
+      <div class="anim"><span class="anim-steam" style="right:18px"></span><span class="anim-steam" style="right:32px;animation-delay:.4s"></span><span class="anim-steam" style="right:46px;animation-delay:.8s"></span><div class="anim-bowl">🍜</div></div>
       <h3 data-i18n="v2_t">Food hunter on a mission on the streets</h3>
       <p data-i18n="v2_d">Street-side spots, tucked-away kitchens and the dishes locals actually eat. Honest reviews, no sugar-coating.</p>
     </div>
